@@ -34,7 +34,7 @@ public class String1 {
 		return false;
 	    
 		for(int i=0; i <=this.size ; i++){
-			if(str[i] !=  s.getChar(i));
+			if(str[i] !=  s.getChar(i))
 					    return false;
 
 				}
