@@ -31,11 +31,11 @@ public class String1 {
     }
     public boolean equal(String1 s) {
   int count = 0;
-		if((s.length())-1 != size)
+		if((s.length())-1 != this.size)
 		return false;
 	    else
-		for(int i=0; i <size ; i++){
-			if(s.getChar(i) == (getChar(i)))
+		for(int i=0; i <this.size ; i++){
+			if(s.getChar(i) == str[i]);
 				count++;
 				}
 	    if(count == s.size)
@@ -44,11 +44,12 @@ public class String1 {
 	    return false;    }
     public void reverse() {
     char temp ;
-	    int runner = size;
-	    for(int i =0; i < size; i++){
-		    temp  getChar(i);
-		str[i] = str[size] ;
-			    size--;
+	    for(int i =0; i < this.size/2; i++){
+		    int j = this.size;
+		    temp  = str[j];
+		str[j] = str[i] ;
+		    str[i] = temp;
+		    j--;
 	    }
 	        }
 }
