@@ -33,7 +33,7 @@ public class String1 {
 		if((s.length())-1 != this.size)
 		return false;
 	    else
-		for(int i=0; i <this.size ; i++){
+		for(int i=0; i <=this.size ; i++){
 			if(s.getChar(i) != str[i]);
 					    return false;
 
