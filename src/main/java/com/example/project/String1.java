@@ -46,7 +46,7 @@ public class String1 {
     char temp ;
 	    int runner = size;
 	    for(int i =0; i < size; i++){
-		    temp = getChar(i);
+		    temp  getChar(i);
 		str[i] = str[size] ;
 			    size--;
 	    }
