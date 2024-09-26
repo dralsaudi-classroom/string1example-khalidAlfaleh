@@ -38,7 +38,7 @@ public class String1 {
 			if(s.getChar(i) == str[i]);
 				count++;
 				}
-	    if(count == s.size)
+	    if(count == this.size)
 		    return true;
 
 	    return false;    }
